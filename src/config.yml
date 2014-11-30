@@ -1,4 +1,4 @@
-# PEXRankChange Config File.
+# PEXSimplify Config File.
 # Configuration Options
 # Set True to allow use in game/console, false to disallow.
 useingame: true

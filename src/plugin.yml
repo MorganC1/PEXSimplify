@@ -1,4 +1,4 @@
-name: PEXRankChange
+name: PEXSimpify
 main: info.emeraldworld.mc.Main
 version: 1.0
 description: Plugin to make PermissionsEx management easier.

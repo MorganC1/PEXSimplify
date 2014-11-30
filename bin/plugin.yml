@@ -1,0 +1,36 @@
+name: PEXRankChange
+main: info.emeraldworld.mc.Main
+version: 1.0
+description: Plugin to make PermissionsEx management easier.
+depend: [PermissionsEx]
+commands:
+  addrank:
+    description: Add a rank to a player.
+    usage: /addrank <player> <group>
+  removerank:
+    description: Remove a rank from a player.
+    usage: /removerank <player> <group>
+  changerank:
+    description: Change a players rank.
+    usage: /changerank <player> <currentgroup> <newgroup>
+    aliases: [demote, promote]
+  prcreload:
+    description: Reload the plugins config.
+    usage: /prcreload
+
+permissions:
+  pex.addrank:
+    description: Permission to use /addrank command.
+    default: op
+  pex.removerank:
+    description: Permission to use /removerank command.
+    default: op
+  pex.changerank:
+    description: Permission to use /changerank command.
+    default: op
+  pex.configreload:
+    description: Permission to use /prcreload config command.
+    default: op
+  pex.immune:
+    description: Keeps player immune from rank changes.
+    default: op

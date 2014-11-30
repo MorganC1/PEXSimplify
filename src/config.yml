@@ -1,0 +1,13 @@
+# PEXRankChange Config File.
+# Configuration Options
+# Set True to allow use in game/console, false to disallow.
+useingame: true
+useinconsole: false
+# Language Options
+deniedinconsole: You are not allowed to use this command in console. Use default PEX commands.
+deniedingame: You are not allowed to use this command in game. Use default PEX commands.
+permissiondenied: You are not permitted to use this command!
+rankadded: Rank successfully added!
+rankremoved: Rank successfully removed!
+rankchanged: Player successfully promoted!
+playerimmune: This player is immune to rank changes!
